@@ -207,6 +207,80 @@ display: block;
     justify-items: center;
     margin-top: 133px;
  }
+.section-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    margin-top: 120px;
+}
+.left-column{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+     max-width: 600px; 
+    width: 100%;
+    height: 410px;
+}
+.right-column{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+       max-width: 650px;
+    height: 820px;
+
+}
+.card  {
+    position: relative;
+    color: #fff;
+    height: 100%;
+    border-radius: 14px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ .bloom{
+    background-image: url('assets/deal-bloom.png');
+ 
+ }
+ .Ana{
+    background-image: url("assets/deal-ana.png");
+       
+ }
+ .Zabo{
+    background-image: url('assets/deal-zabo.png');
+  
+ }
+ .Ana-Plant{
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+ }
+ .Shop2Now{
+    font-weight: 600;
+    font-size: 1 rem;
+    margin-bottom: 4px;
+    color: #fff; 
+    font-family: Inter;
+ }
+ .Zabo-Plant{
+ font-weight: bold;
+ font-size: 2.50rem;
+ margin-bottom: 6px;
+ }
+ .Shop-Now{
+    
+     font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 4px;
+    color: #fff;
+    font-family: Inter;
+ }
+
 /* Hover style 
  */
 
@@ -237,6 +311,7 @@ display: block;
         align-items: center;
         gap: 10px;
     }
+  
 
     .banner {
         grid-template-columns: repeat(1, 1fr);
@@ -259,6 +334,10 @@ display: block;
     }
     .Flower-Lover{
         flex-direction: column;
+    }
+    .section-container{
+      
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
