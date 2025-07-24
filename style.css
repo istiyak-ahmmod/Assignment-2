@@ -201,6 +201,12 @@ display: block;
     font-weight: 500;
     font-size: 1.15rem;
 }
+/* Latest style 
+ */
+ .Latest{
+    justify-items: center;
+    margin-top: 133px;
+ }
 /* Hover style 
  */
 
@@ -221,7 +227,7 @@ display: block;
 /* responsive media query  */
 
 @media screen and (max-width:576px) {
-    .menu-content {
+    .menu-content,.badge {
         display: none;
     }
 
@@ -251,10 +257,16 @@ display: block;
     .plant-img {
         grid-template-columns: repeat(2, 1fr);
     }
+    .Flower-Lover{
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
    .plant-img {
         grid-template-columns: repeat(3, 1fr);
+    }
+     .Flower-Lover{
+        flex-direction: column;
     }
 }
