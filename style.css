@@ -72,8 +72,84 @@ color: #E95A08;
     font-size: 1.3rem;
     font-family: Inter;
 }
+/* Our Plants style 
+ */
 
+.plant-content{
+    
+    
+    justify-items: center;
+}
+.plant-title{
+     font-weight: bold;
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 5px;
+}
+.plant-description{
+    
+    max-width: 1000px;
+    width: 100%;
+      color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: Inter;
+    
+}
+.plant-img{
+    max-width: 270px;
+    width: 100%;
+margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    text-align: center;
+   
+}
+.Lily{
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-family: Inter;
+    color: #111111;
+    margin-bottom: 2px;
 
+}
+.USD{
+        font-weight: bold;
+    font-size: 1.3rem;
+    font-family: Inter;
+    color: #111111;
+    margin-top: 5px;
+}
+.btn{
+    max-width: 270px;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: #E95A08;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+/* Hover style 
+ */
+
+.menu a:hover{
+    font-weight: bold;
+font-size: 1.25rem;
+color: #E95A08;
+}
+ .btn:hover{
+    font-size: 1.30rem;
+background-color: #fff;
+border: 2px solid #E95A08;
+color: #E95A08;
+box-shadow: 0 4px 16px  #E95A08;
+}
 /* responsive media query  */
 
 @media screen and (max-width:576px){
