@@ -92,7 +92,7 @@
 
 .plant-content {
 
-
+margin-top: 120px;
     justify-items: center;
 }
 
@@ -155,7 +155,52 @@
     cursor: pointer;
     transition-duration: .5s;
 }
+/* Flower-Lover style  */
 
+.Flower-Lover{
+    margin-top: 210px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.image-wrapper{
+    position: relative;
+    max-width: 540px;
+   
+    height: auto;
+}
+.image-wrapper img .main-image{
+width: 100%;
+height: auto;
+display: block;
+
+}
+.badge{
+    position: absolute;
+    top: -125px;
+    right: -95px;
+    width: 280px;
+    height: 280px;
+   
+}
+.Flower-content{
+    max-width: 540px;
+    width: 100%;
+    justify-items: start;
+}
+.Flower-title{
+      font-weight: bold;
+    font-size: 3.1rem;
+    
+    color: #000000;
+    margin-bottom: 20px;
+}
+.Flower-content li {
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 1.15rem;
+}
 /* Hover style 
  */
 
