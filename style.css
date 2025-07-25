@@ -181,6 +181,7 @@ display: block;
     right: -95px;
     width: 280px;
     height: 280px;
+    
    
 }
 .Flower-content{
@@ -280,14 +281,54 @@ display: block;
     color: #fff;
     font-family: Inter;
  }
+ .colorful-Bunch{
+background-image: url('assets/news-letter-bg.png');
+background-size: cover;
+background-position: center;
+
+height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+ }
+.subscribe-section{
+    text-align: center;
+    padding: 40px;
+    max-width: 830px;
+ width: 100%;
+
+}
+.subscribe-section h1{
+      font-size: 3.25rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+
+}
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+
+ 
+ 
+ 
+  overflow: hidden;
+}
+.subscribe-form input {
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  flex: 1;
+}
 /* Footer style 
  */
  .footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
+
     padding: 50px 160px;
  }
  .logo{
@@ -370,5 +411,11 @@ cursor: pointer;
     }
      .Flower-Lover{
         flex-direction: column;
+    }
+    .colorful-Bunch ,
+    .Flower-Lover{
+justify-content: center;
+align-items: center;
+display: flex;
     }
 }
